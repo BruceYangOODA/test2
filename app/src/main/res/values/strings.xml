@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">test2</string>
+    <string name="tvPtEdu">請選擇使用活動：</string>
+    <string name="btnGoView">移至</string>
+    <string-array name="activityList">
+        <item>Youtube</item>
+        <item>方塊移動</item>
+        <item>點餐系統</item>
+        <item>大學</item>
+        <item>碩士</item>
+        <item>博士</item>
+    </string-array>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:text="選菜："
+                android:id="@+id/TextViewOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/menuSpinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="數量："
+                android:id="@+id/TextViewNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:text=""
+                android:id="@+id/numEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="備註："
+                android:id="@+id/TextViewEtc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:text=""
+                android:id="@+id/add_remarkEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/check_table_ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewNO"
+        android:text="桌號:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/check_table_ImageView01"/>
+    <TextView
+        android:text=""
+        android:id="@+id/check_tableTextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewNO"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/textViewNO"
+        />
+    <TextView
+        android:id="@+id/textViewA"
+        android:text="人數:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNO"/>
+    <TextView
+        android:text=""
+        android:id="@+id/check_tableTextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewNO"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/textViewA"
+        />
+
+</RelativeLayout>

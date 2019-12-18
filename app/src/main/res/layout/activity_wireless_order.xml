@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView android:text="" />
+            <TextView android:text="" />
+        </TableRow>
+        <TableRow>
+            <TextView android:text="" />
+            <TextView android:text="" />
+        </TableRow>
+        <TableRow>
+            <TextView android:text="" />
+            <TextView android:text="" />
+        </TableRow>
+        <TableRow>
+            <TextView android:text="" />
+            <TextView android:text="" />
+        </TableRow>
+        <TableRow>
+            <TextView android:text="" />
+            <TextView android:text="" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="" />
+            <TextView android:text="" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="" />
+            <TextView android:text="" />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="用戶名稱："
+                android:id="@+id/txtUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff"
+                />
+
+            <EditText
+                android:text="guest"
+                android:id="@+id/userEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="用戶密碼："
+                android:id="@+id/txtPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff"
+                />
+
+            <EditText
+                android:text="123456"
+                android:id="@+id/pwdEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="right">
+
+            <Button
+                android:text="登出"
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:text="登錄"
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
